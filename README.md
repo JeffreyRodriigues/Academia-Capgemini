@@ -1,5 +1,5 @@
 <div align = "center">
-  <img width="650px" src="https://github.com/JeffreyRodriigues/Academia-Capgemini/Capgemini/capgemini.png" title="source: imgur.com"/>
+  <img width="650px" src="https://github.com/JeffreyRodriigues/Academia-Capgemini/blob/main/Capgemini/capgemini.png" title="source: imgur.com"/>
   <hr>
   <h3>
   <h1><b>Desafio de Programação - Academia Capgemini</b></h1>
