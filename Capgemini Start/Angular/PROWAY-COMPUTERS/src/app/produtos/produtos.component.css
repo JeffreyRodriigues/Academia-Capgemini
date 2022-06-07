@@ -13,7 +13,7 @@
   padding: 10px;
   border-radius: 10px;
   flex: 0 1 270px;
-  height: 450px;
+  height: 360px;
   background-color: white;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
@@ -33,8 +33,8 @@
 }
 
 .product-list__card img {
-  height: 250px;
-  width: 250px;
+  height: 180px;
+  width: 180px;
   display: block;
   border-radius: 4px;
 }
