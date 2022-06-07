@@ -15,7 +15,7 @@ export const produtos: IProduto[] = [
   { id: 5, descricao: "Fone de ouvido", preco: 199.00, descricaoPreco: "À vista no PIX", imagem: "/assets/fone-de-ouvido.jpg", quantidadeEstoque: 10 },
   { id: 6, descricao: "Fone de ouvido Apple", preco: 939.00, descricaoPreco: "À vista no PIX", imagem: "/assets/fone-de-ouvido-apple.jpg", quantidadeEstoque: 10 },
   { id: 7, descricao: "HD 1TB", preco: 499.00, descricaoPreco: "À vista no PIX", imagem: "/assets/hd-1tb.jpg", quantidadeEstoque: 10 },
-  { id: 8, descricao: "Combo de Placa de Vídeo", preco: 18939.00, descricaoPreco: "À vista no PIX", imagem: "/assets/combo-placa.jpg", quantidadeEstoque: 10 },
+  { id: 8, descricao: "Combo gamer", preco: 18939.00, descricaoPreco: "À vista no PIX", imagem: "/assets/combo-placa.jpg", quantidadeEstoque: 10 },
   { id: 9, descricao: "Processador Ryzen", preco: 1000.00, descricaoPreco: "À vista no PIX", imagem: "/assets/processador-ryzen.jpg", quantidadeEstoque: 10 },
   { id: 10, descricao: "Notebook profissional", preco: 2539.00, descricaoPreco: "À vista no PIX", imagem: "/assets/notebook-profissional.jpg", quantidadeEstoque: 10 },
   { id: 11, descricao: "Notebook gamer", preco: 4599.00, descricaoPreco: "À vista no PIX", imagem: "/assets/notebook-gamer.jpg", quantidadeEstoque: 10 },
