@@ -8,6 +8,7 @@ import { Router } from '@angular/router';
 })
 export class BarraPesquisaComponent implements OnInit {
   descricao = "";
+
   constructor(
     private router: Router
   ) { }
@@ -23,5 +24,4 @@ export class BarraPesquisaComponent implements OnInit {
 
     this.router.navigate(["produtos"]);
   }
-
 }
