@@ -1,0 +1,6 @@
+
+public class Fisica {
+	
+	public String cpf;
+	public String identidade;
+}

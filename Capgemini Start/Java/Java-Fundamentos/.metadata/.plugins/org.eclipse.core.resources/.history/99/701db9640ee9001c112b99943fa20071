@@ -1,0 +1,6 @@
+
+public class Juridica extends Pessoa {
+	public String cnpj;
+	public String inscEstadual;
+
+}

@@ -1,0 +1,20 @@
+
+public class Pessoas {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Pessoa pes = new Pessoa();
+		pes.nome = "JOÃO";
+		pes.cpf = "1111111";
+		pes.identidade = "1560455";
+		pes.situacaoPessoa = "A";
+		
+		pes.cnpj = "454577566";
+		pes.nome = "CASAS DO SILVA";
+		pes.inscEstadual = "45545454";
+		pes.situacaoPessoa = "I";
+
+	}
+
+}
