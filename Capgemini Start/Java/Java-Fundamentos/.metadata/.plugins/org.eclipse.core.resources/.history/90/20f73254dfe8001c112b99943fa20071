@@ -1,0 +1,18 @@
+
+public class RelacionaisLogicos {
+
+	public static void main(String[] args) {
+		// Operadores Relacionais
+		// > < >= <= != =
+		
+		int num1, num2;
+		num1 = 10;
+		num2 = 10;
+		
+		if (num1 == num2) {
+			System.out.println("Número 1 e Número 2 são iguais");
+		}
+
+	}
+
+}

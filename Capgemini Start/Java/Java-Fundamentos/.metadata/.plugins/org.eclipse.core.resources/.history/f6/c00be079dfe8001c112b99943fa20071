@@ -1,0 +1,35 @@
+
+public class RelacionaisLogicos {
+
+	public static void main(String[] args) {
+		// Operadores Relacionais
+		// > < >= <= != =
+		
+		int num1, num2;
+		
+		//Testando igualdade
+		num1 = 10;
+		num2 = 10;
+		if (num1 == num2) {
+			System.out.println("Número 1 e Número 2 são iguais");
+		}
+		
+		//Testando desigualdade
+		num1 = 10;
+		num2 = 30;
+		if (num1 != num2) {
+			System.out.println("Número 1 e Número 2 são diferentes");
+		}
+		
+		//Testando maior
+		num1 = 10;
+		num2 = 30;
+		if (num1 > num2) {
+			System.out.println("Número 1 é maior que Número 2");
+		} else {
+			System.out.println("Número 2 é maior que Número 1");
+		}
+
+	}
+
+}
