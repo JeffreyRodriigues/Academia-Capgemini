@@ -1,0 +1,13 @@
+
+public class TipoDado {
+
+	public static void main(String[] args) {
+		// Demonstração de tipos de dados
+		int numero;
+		float decimalCurto;
+		double decimalLongo;
+		char caracter;
+		String cadeiaCaracteres;
+	}
+
+}

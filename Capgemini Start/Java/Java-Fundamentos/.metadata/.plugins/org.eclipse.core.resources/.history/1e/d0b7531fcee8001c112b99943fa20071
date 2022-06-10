@@ -1,0 +1,11 @@
+
+public class ClassePrincipal {
+
+	public static void main(String[] args) {
+		public float numero = 0;
+		numero = 10;
+		
+
+	}
+
+}
