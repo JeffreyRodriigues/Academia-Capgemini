@@ -1,0 +1,32 @@
+import java.util.Iterator;
+
+public class LacoRepeticao {
+
+	public static void main(String[] args) {
+		// Comando WHILE - laço pré-testado
+		
+		int qtdVezes = 1;
+		
+		while (qtdVezes <=10) {
+			System.out.println("Estou fazendo a " + qtdVezes + "ª vez");
+			qtdVezes++; //qtdVezes = qtdVezes + 1
+		}
+		System.out.println("Saí do laço e executei " + (qtdVezes-1) + " vezes");
+		
+		//Do WHILE - laço pós-testado
+		System.out.println("Comando DO ...WHILE");
+		qtdVezes = 1;
+		do {
+			System.out.println("Estou fazendo a " + qtdVezes + "ª vez");
+			qtdVezes++; //qtdVezes = qtdVezes + 1
+		} while (qtdVezes <= 10);
+		System.out.println("Saí do laço e executei " + (qtdVezes-1) + " vezes");
+		
+		//For
+		for (int qtdVezes1 = 0; qtdVezes1 <= 10; qtdVezes1++) {
+			System.out.println("Estou fazendo a " + qtdVezes + "ª vez");		
+		}
+		System.out.println("Saí do laço e executei " + (qtdVezes-1) + " vezes");
+	}
+
+}

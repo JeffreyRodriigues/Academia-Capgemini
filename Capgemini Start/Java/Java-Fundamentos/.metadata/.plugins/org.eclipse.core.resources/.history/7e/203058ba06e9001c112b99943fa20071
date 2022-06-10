@@ -1,0 +1,15 @@
+
+public class LacoRepeticao {
+
+	public static void main(String[] args) {
+		// Comando WHILE
+		
+		int qtdVezes = 1;
+		
+		while (qtdVezes <=10) {
+			System.out.println("Estou fazendo a " + qtdVezes + "ª vez");
+		}
+
+	}
+
+}

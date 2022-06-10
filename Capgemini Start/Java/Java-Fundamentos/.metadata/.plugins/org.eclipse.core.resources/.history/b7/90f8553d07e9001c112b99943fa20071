@@ -1,0 +1,24 @@
+
+public class LacoRepeticao {
+
+	public static void main(String[] args) {
+		// Comando WHILE - laço pré-testado
+		
+		int qtdVezes = 1;
+		
+		while (qtdVezes <=10) {
+			System.out.println("Estou fazendo a " + qtdVezes + "ª vez");
+			qtdVezes++; //qtdVezes = qtdVezes + 1
+		}
+		System.out.println("Saí do laço e executei " + (qtdVezes-1) + " vezes");
+		
+		//Do WHILE - laço pós-testado
+		qtdVezes =11;
+		do {
+			System.out.println("Estou fazendo a " + qtdVezes + "ª vez");
+			qtdVezes++; //qtdVezes = qtdVezes + 1
+		} while (qtdVezes <= 10);
+		System.out.println("Saí do laço e executei " + (qtdVezes-1) + " vezes");
+	}
+
+}

@@ -1,0 +1,30 @@
+
+public class ComandoCondicional {
+
+	public static void main(String[] args) {
+		// IF
+		
+		int num1 = 10, num2 = 30;
+			if (num1 < num2) {
+				System.out.println("Número 1 é menor que Número 2");
+			}
+			
+			if (num1 > num2) {
+				System.out.println("Número 1 é maior");
+			} else {
+				System.out.println("Número 1 é menor que o Número 2");
+			}
+			
+			//Condição composta - situação num1 = num2
+			num1 = 10;
+			num2 = 10;
+			if (num1 > num2) {
+				System.out.println("Número 1 é maior");
+			} else if (num1 < num2) {
+				System.out.println("Número 1 é menor");
+			} else {
+				System.out.println("Número 1 é igual");
+			}
+	}
+
+}

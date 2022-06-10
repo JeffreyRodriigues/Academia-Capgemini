@@ -1,0 +1,14 @@
+
+public class ComandoCondicional {
+
+	public static void main(String[] args) {
+		// IF
+		
+		int num1 = 10, num2 = 30
+				if (num1 < num2) {
+					System.out.println("Número 1 é menor que Número 2");
+				}
+
+	}
+
+}
