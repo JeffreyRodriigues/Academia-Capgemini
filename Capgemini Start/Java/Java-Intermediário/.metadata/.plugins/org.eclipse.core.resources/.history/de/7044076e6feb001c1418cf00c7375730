@@ -1,0 +1,24 @@
+import java.util.LinkedList;
+
+public class LinkedListCarros {
+
+	public static void main(String[] args) {
+		/*
+		 addFirst()
+		 addLast()
+		 removeFirst()
+		 removeLast()
+		 getFirst()
+		 getLast()
+		 */
+		LinkedList<String> cars = new LinkedList<String>();
+		cars.add("Volvo");
+		cars.add("BMW");
+		cars.add("FORD");
+		
+		//incluindo mazda no início
+		cars.addFirst("MAZDA");
+		System.out.println(cars);
+	}
+
+}

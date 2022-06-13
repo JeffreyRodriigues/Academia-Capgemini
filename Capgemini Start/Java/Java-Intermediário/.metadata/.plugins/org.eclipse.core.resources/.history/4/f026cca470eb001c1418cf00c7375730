@@ -1,0 +1,62 @@
+import java.util.LinkedList;
+
+public class LinkedListCarros {
+
+	public static void main(String[] args) {
+		/*
+		 addFirst()
+		 addLast()
+		 removeFirst()
+		 removeLast()
+		 getFirst()
+		 getLast()
+		 */
+		LinkedList<String> cars = new LinkedList<String>();
+		cars.add("VOLVO");
+		cars.add("BMW");
+		cars.add("FORD");
+		System.out.println(cars);
+		System.out.println("Mostrando toda lista inicial");
+		System.out.println("");
+		
+		//incluindo mazda no início
+		cars.addFirst("MAZDA");
+		System.out.println(cars);
+		System.out.println("(addFirst) - Incluindo Mazda no início");
+		System.out.println("");
+		
+		//incluindo Bugatti no fim
+		cars.addLast("BUGATTI");
+		System.out.println(cars);
+		System.out.println("(addLast) - Incluindo Bugatti no fim");
+		System.out.println("");
+		String carro;
+		carro = cars.get(3);
+		System.out.println(carro);
+		System.out.println("(get(position)) - Mostrando carro da terceira posição");
+		System.out.println("");
+		
+		//removendo primeiro
+		cars.removeFirst();
+		System.out.println(cars);
+		System.out.println("(removeFirst) - Removendo primeiro carro da lista");
+		System.out.println("");
+		
+		//pega o primeiro
+		System.out.println(cars.getFirst());
+		System.out.println("(getFirst) - Mostrando primeiro carro da lista");
+		System.out.println("");
+		
+		//pega o ultimo
+		System.out.println(cars.getLast());
+		System.out.println("(getLast) - Mostrando último carro da lista");
+		System.out.println("");
+		
+		//removendo o último
+		cars.removeLast();
+		System.out.println(cars);
+		System.out.println("(removeLast) - Removendo último carro da lista");
+		System.out.println("");
+	}
+
+}
