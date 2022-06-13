@@ -1,0 +1,15 @@
+
+public class Demonstracao {
+
+	public static void main(String[] args) {
+		// Um tipo primitivo não tem como transformar em objeto a
+		// as classes Wrapper
+		// Autoboxing
+
+		Boolean bolWrapped = true;
+		System.out.println(bolWrapped.getClass());
+		
+		Character chWrapped = 'a';
+	}
+
+}
