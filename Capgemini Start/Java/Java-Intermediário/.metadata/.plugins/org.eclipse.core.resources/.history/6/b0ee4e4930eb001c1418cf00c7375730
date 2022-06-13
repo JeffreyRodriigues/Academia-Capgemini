@@ -23,7 +23,7 @@ public class Construtor {
 		
 		//usa enum MATRICULA
 		alu.situacaoMatricula = MATRICULA.PENDENTE;
-		System.out.println("O status da matricula do aluno está: " +alu.situacaoMatricula);
+		System.out.println("A matricula do aluno está: " +alu.situacaoMatricula);
 	}
 
 }

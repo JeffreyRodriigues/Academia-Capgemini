@@ -1,6 +1,5 @@
 package Construtores;
 
-import Construtores.Aluno.MATRICULA;
 import Construtores.Aluno.STATUS;
 
 public class Construtor {
@@ -19,11 +18,7 @@ public class Construtor {
 		
 		//Imprimindo situação do aluno
 		System.out.println("A média do aluno é: " +alu.calcularMediaAluno() + " e o aluno está " + alu.situacaoAluno);
-		
-		
-		//usa enum MATRICULA
-		alu.situacaoMatricula = MATRICULA.PENDENTE;
-		System.out.println("O status da matricula do aluno está: " +alu.situacaoMatricula);
+
 	}
 
 }
