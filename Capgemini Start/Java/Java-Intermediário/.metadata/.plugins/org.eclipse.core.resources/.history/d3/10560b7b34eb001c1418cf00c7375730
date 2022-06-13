@@ -1,0 +1,30 @@
+import javax.swing.JOptionPane;
+
+public class TrabalhandoArray {
+
+	public static void main(String[] args) {
+		// declarando array de países
+		String [] paises = new String[4];
+		
+		//declarando o array de números
+		int[] numeros = new int[10];
+		
+		//abastecendo o array de países
+		for (int i = 0; i < 4; i++) {
+			paises[i] = JOptionPane.showInputDialog("Informe um país");
+		}
+		
+		//listando o array de países
+		for (String listaPaises : paises) {
+			System.out.println(listaPaises);
+		}
+		
+		//abastecendo o array de números
+		
+		for (int i = 0; i < 10; i++) {
+			numeros[i] = JOptionPane.showInputDialog("Informe um número");
+		}
+
+	}
+
+}
