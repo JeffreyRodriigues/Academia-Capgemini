@@ -1,0 +1,11 @@
+package Programas;
+
+public class Gado implements InterfaceAnimal {
+
+	@Override
+	public void AnimalSom() {
+		System.out.println("Muuuu");
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package Interfaces;
+
+public class Bovino implements Animal {
+	
+	@Override
+	public void animalSom() {
+		System.out.println("Muuuu");
+	}
+	
+}
